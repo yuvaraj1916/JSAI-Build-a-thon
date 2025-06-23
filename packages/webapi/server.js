@@ -10,6 +10,7 @@ import { dirname } from 'path';
 import pdfParse from 'pdf-parse/lib/pdf-parse.js';
 import { BufferMemory } from "langchain/memory";
 import { ChatMessageHistory } from "langchain/stores/message/in_memory";
+import { AgentService } from "./agentService.js";
 
 dotenv.config();
 
